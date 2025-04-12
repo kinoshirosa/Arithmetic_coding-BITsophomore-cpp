@@ -16,6 +16,9 @@ public:
 	void set_sym(char sym) {
 		symbol = sym;
 	}
+	void set_num(unsigned int n) {
+		num = n;
+	}
 	char get_sym() {
 		return symbol;
 	}
